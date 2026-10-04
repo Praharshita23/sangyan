@@ -1,33 +1,36 @@
-# Python virtual environment
-venv/
-
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Secrets / environment variables
-.env
-.env.*
-!.env.example
-
+# ============================================================
 # Flutter / Dart generated files
+# ============================================================
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
 .pub-cache/
-build/
 
+# Ignore Flutter build output except production web build
+/build/*
+!/build/web/
+!/build/web/**
+
+# ============================================================
 # IDE files
+# ============================================================
 .vscode/
 .idea/
 
+# ============================================================
 # OS files
+# ============================================================
 .DS_Store
+Thumbs.db
 
+# ============================================================
 # Logs
+# ============================================================
 *.log
 
-# Python testing/cache
-.pytest_cache/
-.mypy_cache/
+# ============================================================
+# Temporary files
+# ============================================================
+*.tmp
+*.temp
