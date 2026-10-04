@@ -26078,7 +26078,7 @@ var $async$GD=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:h=B.c.h6(a)
 if(J.cp(h)===0)throw A.f(A.bH("Message cannot be empty."))
 p=4
-l=A.fa("http://127.0.0.1:8000/scan")
+l=A.fa("https://sangyan-bc16.onrender.com/scan")
 k=t.N
 j=A.a7(["Content-Type","application/json","Accept","application/json"],k,k)
 s=7
@@ -26110,7 +26110,7 @@ s=p}for(;;)switch(s){case 0:e=a.length
 if(e===0)throw A.f(A.bH("Image is empty."))
 n=A.aEX(b)
 p=4
-m=A.aIg("POST",A.fa("http://127.0.0.1:8000/scan-image"))
+m=A.aIg("POST",A.fa("https://sangyan-bc16.onrender.com/scan-image"))
 m.r.m(0,"Accept","application/json")
 i=m.y
 h=n
@@ -26146,7 +26146,7 @@ var $async$Xn=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:h=B.c.h6(a)
 if(J.cp(h)===0)throw A.f(A.bH("URL cannot be empty."))
 p=4
-l=A.fa("http://127.0.0.1:8000/scan-link")
+l=A.fa("https://sangyan-bc16.onrender.com/scan-link")
 k=t.N
 j=A.a7(["Content-Type","application/json","Accept","application/json"],k,k)
 s=7
